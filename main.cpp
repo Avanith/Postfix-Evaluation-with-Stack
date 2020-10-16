@@ -13,9 +13,9 @@ using namespace std;
 
 int main()
 {
-	string postfix;
+	string postfix{};
 	int i{};
-	float result{}, operand1, operand2;
+	float result{}, operand1{}, operand2{};
 	LinkedStack<float> operandStack;
 	
 	cout << "Input a postfix expression: ";
